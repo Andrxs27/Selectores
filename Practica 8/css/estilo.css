@@ -1,0 +1,39 @@
+/*
+Una regla CSS tiene la siguiente estructura:
+selector {
+    propiedad: valor;
+}
+    Selector: Indica a que elemento(s) HTML que se le aplicará la regla CSS.
+
+    {}, Delimitan el bloque de reglas, todo lo que esta dentro afecta al selector.
+
+    Propiedad: Es la caracteristica que queremos modificar, ejemplo: color, font-size, etc.
+
+    Valor: Definie como queremos que se vea nuestro proyecto, ejemplo: red, 20px, center, etc.
+
+    ; muy importante, no es opcional cierra cada declaración de propiedad, ES OBLIGATORIO.
+*/
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: red; /* Color del texto */
+    font-weight: bold ; /* Poner texto en negrita */
+    font-size: 20px; /* Tamaño de la fuente y px es pixeles */
+    text-align: justify;
+    /* Posición del texto, opciones:
+    left (izquierda del contenedor)
+    right (alinea el texto a la derecha del contenedor)
+    center(centra el texto horizontalmente,) 
+    justify (ajusta el texto tanto a la izquierda como a la derecha) 
+    start (inicio,LTR,RLT),
+    end (final,RTL,LTR) */
+}
+p {
+    color: gray;
+    font-size: 24px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif; /* Tipografía del texto */
+}
