@@ -1,22 +1,48 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.caja {
-    background-color: #e0f7fa;
-    background-image: url(../images/fondo.jpg);
+
+.Basketball, .Gym, .Videojuegos {
+  width: 100%;
+  min-height: 36vh; /* Hace que cada caja ocupe toda la altura de la pantalla */
+  background-size: contain;
+  background-position: center;
+  justify-content: center;
+  border: 1px solid #e0f7fa;
 }
 
-h1 {
-    color: #e0f7fa;
-    font-family: 'Arial', sans-serif;
-    text-align: center;
+
+.Basketball {
+  background-image: url(../images/basket.jpg);
+
+}
+
+.Gym {
+  background-image: url(../images/Gym.jpg);
+
+}
+
+.Videojuegos {
+  background-image: url(../images/Juegos.jpg);
+
+}
+
+
+h1, h2, h3 {
+  color: #e0f7fa;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 p {
-    color: #e0f7fa;
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    text-align: justify;
+  color: #e0f7fa;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
